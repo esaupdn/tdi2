@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <fieldset>
+                <legend>Digite os dados:</legend>
+                <div class="input-group">
+                    <label for="inicio">Inicio:</label>
+                    <input type="number" name="inicio" id="txti">
+                </div>
+                <div class="input-group">
+                    <label for="fim">Fim:</label>
+                    <input type="number" name="fim" id="txtf">
+                </div>
+                <div class="input-group">
+                    <label for="passo">Passo:</label>
+                    <input type="number" name="passos" id="txtp">
+                </div>
+            </fieldset>
+            <p><input id="btn" type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;TDI 2 - Esaú Paiva</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
